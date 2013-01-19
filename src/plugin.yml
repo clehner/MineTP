@@ -1,5 +1,5 @@
 name: MineTP
-version: 3.0
+version: 3.1
 description: MineTP enables you to teleport offline players.
 author: Raith Thomas
 website: http://www.xtrsource.com/bukkit_plugin/minetp/minetp.html
@@ -20,4 +20,4 @@ permissions:
     default: op
   minetp.teleportoffline:
     description: 'Allow to plan a teleport'
-    default: op
+    default: false
