@@ -1,12 +1,23 @@
 name: MineTP
-version: 1.0
+version: 3.0
 description: MineTP enables you to teleport offline players.
 author: Raith Thomas
-webseite: http://www.xtrsource.com
+website: http://www.xtrsource.com/bukkit_plugin/minetp/minetp.html
 
 main: com.xtrsource.minetp.MineTP
 
 commands:
-    mtp:
-        description: 'Main command of MineTP'
-        usage: 'Usage: /mtp (remove) <player>'
+  mtp:
+    description: 'Main command of MineTP'
+    usage: 'Usage: /mtp (remove) <player>'
+
+permissions:
+  minetp.checkupdate:
+    description: 'Check for updates when this player logs in.'
+    default: op
+  minetp.teleportremove:
+    description: 'Allow to remove a planned teleport'
+    default: op
+  minetp.teleportoffline:
+    description: 'Allow to plan a teleport'
+    default: op
