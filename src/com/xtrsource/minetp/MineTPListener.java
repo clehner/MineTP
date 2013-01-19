@@ -42,7 +42,7 @@ class MineTPListener implements Listener {
     
     @EventHandler
     public void checkUpdate(PlayerJoinEvent event){
-        if(event.getPlayer().hasPermision("minetp.checkupdate")){
+        if(event.getPlayer().hasPermission("minetp.checkupdate")){
             checkVersion(event.getPlayer());
         }
     }
